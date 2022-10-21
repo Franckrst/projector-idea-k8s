@@ -1,4 +1,4 @@
-FROM registry.jetbrains.team/p/prj/containers/projector-webstorm:latest
+FROM registry.jetbrains.team/p/prj/containers/projector-idea-c:latest
 
 RUN sudo apt-get update
 RUN sudo apt-get install -y ca-certificates curl
